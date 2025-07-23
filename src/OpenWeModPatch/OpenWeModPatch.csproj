@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFrameworks>net452</TargetFrameworks>
+		<ImplicitUsings>disable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<LangVersion>8.0</LangVersion>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="asar.integrity" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="asar.integrity" />
+	</ItemGroup>
+
+</Project>
